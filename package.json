@@ -1,0 +1,21 @@
+{
+  "name": "throttle",
+  "version": "0.0.1",
+  "description": "Функиция-декоратор для контроля числа вызовов обернутой функции.",
+  "main": "./src/throttle.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.ditrade.ru:BelirafoN/throttle.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "author": "BelirafoN <belirafon@gmail.com>",
+  "license": "MIT"
+}
