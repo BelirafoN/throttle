@@ -1,21 +1,31 @@
 {
   "name": "throttle",
   "version": "0.0.1",
-  "description": "Функиция-декоратор для контроля числа вызовов обернутой функции.",
-  "main": "./src/throttle.js",
-  "directories": {
-    "test": "tests"
+  "description": "Function-wrapper to reduce the number of calls the inverse function.",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "main": "./lib/throttle.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "mocha ./tests"
+    "test": "mocha ./test",
+    "coverage": "istanbul cover _mocha -- -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.ditrade.ru:BelirafoN/throttle.git"
+    "url": "git@github.com:BelirafoN/throttle.git"
   },
-  "devDependencies": {
-    "mocha": "^2.4.5"
+  "author": {
+    "name": "Alex Voronyansky",
+    "email": "belirafon@gmail.com"
   },
-  "author": "BelirafoN <belirafon@gmail.com>",
+  "bugs": {
+    "email": "belirafon@gmail.com"
+  },
   "license": "MIT"
 }

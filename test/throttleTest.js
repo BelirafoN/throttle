@@ -7,7 +7,7 @@
 "use strict";
 
 const assert = require('assert');
-const throttle = require('../src/throttle');
+const throttle = require('../lib/throttle');
 
 describe('Throttle decorator functionality', () => {
     let callCounter = 0,
