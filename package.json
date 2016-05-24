@@ -1,6 +1,6 @@
 {
   "name": "throttle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Function-wrapper to reduce the number of calls the inverse function.",
   "engines": {
     "node": ">=4.0"
